@@ -1,0 +1,55 @@
+/style.css
+
+body {
+	background-color: pink;
+	background-image: url(Images/wink.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body {
+	background-image: url(Images/background.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a {
+	color: red;
+}
+
+a:hover {
+	background-color: lightblue;
+	color: blue;
+}
+
+p span {
+	background-color: pink;
+	color: black;
+	font-family: arial;
+	font-size: 26;
+}
+
+p.bio {
+	color: white;
+	background-color: purple;
+	font-family: arial;
+	font-size: 18;
+}
+
+div {
+  width: 1200px;
+  padding: 0px;
+}
+
+#prof {
+	border-radius: 50%;
+}
+
+h1 {
+	color: white
+}
+
+h3 {
+	color: pink;
+}
