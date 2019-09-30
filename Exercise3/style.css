@@ -7,6 +7,7 @@ body {
 }
 
 body {
+	background-color: pink;
 	background-image: url(Images/background.jpeg);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -23,6 +24,7 @@ a:hover {
 }
 
 p span {
+	padding: 10;
 	background-color: pink;
 	color: black;
 	font-family: arial;
@@ -32,6 +34,10 @@ p span {
 p.bio {
 	color: white;
 	background-color: purple;
+	padding: 20;
+	border: solid;
+	border-width: 5;
+	border-color: hotpink;
 	font-family: arial;
 	font-size: 18;
 }
@@ -49,6 +55,6 @@ h1 {
 	color: white
 }
 
-h3 {
-	color: pink;
+h4 {
+	color: hotpink;
 }
