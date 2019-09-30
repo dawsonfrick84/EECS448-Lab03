@@ -1,0 +1,27 @@
+<!-- index.html -->
+<html>
+   <head>
+      <title>CSS Manipulation</title>
+      <script src="manipulate.js"></script>
+   </head>
+   <body>
+      <p id="dummy" style="background-color:red; border-style: solid; border-color: blue; border-width: 5; padding: 20;">
+         Lorem Ipsum dummy text this is just some filler used to fill up paragraph space that will be manipulated with css and javascript. Bla bla bla Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+      </p>
+      <h2>Enter your border color</h2>
+      <h5>Accepts values 0-255</h5>
+      Red: <input type="number" id="border_red" min="0" max="255" value=0>
+      Green: <input type="number" id="border_green" min="0" max="255" value=0>
+      Blue: <input type="number" id="border_blue" min="0" max="255" value=255>
+      <br><br>
+      <h2>Enter your border width</h2>
+      Width: <input type="number" id="border_width" min="0" max="999" value=5>
+      <br><br>
+      <h2>Enter your background color</h2>
+      <h5>Accepts values 0-255</h5>
+      Red: <input type="number" id="background_red" min="0" max="255" value=255>
+      Green: <input type="number" id="background_green" min="0" max="255" value=0>
+      Blue: <input type="number" id="background_blue" min="0" max="255" value=0>
+      <br><br><br><button onclick="change()">Change</button><br><br><br>
+   </body>
+</html>
